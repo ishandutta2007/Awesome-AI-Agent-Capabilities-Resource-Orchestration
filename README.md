@@ -1,50 +1,51 @@
-# Awesome-AI-Agent-Capabilities-Resource-Orchestration
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome AI Agent Capabilities & Resource Orchestration Banner" width="100%" />
+</p>
 
-## Top AI Agent Capabilities & Resource Orchestration Ecosystem
+# 🤖 Awesome AI Agent Capabilities & Resource Orchestration
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-AI-Agent-Capabilities-Resource-Orchestration/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-AI-Agent-Capabilities-Resource-Orchestration?style=flat-square&logo=github&color=gold" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-AI-Agent-Capabilities-Resource-Orchestration/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-AI-Agent-Capabilities-Resource-Orchestration?style=flat-square&logo=github&color=blue" alt="GitHub Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-AI-Agent-Capabilities-Resource-Orchestration/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License: MIT" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+---
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
+## 🌟 Overview & Mission
 
-*Focused on Agent Skill Extraction, Resource-to-Capability Synthesis, MCP Gateways, Observability, Evaluation & LLM Resource Orchestration*  
+> **The definitive directory of platforms and frameworks for AI Agent Skill Synthesis, Model Context Protocol (MCP) tool gateways, OpenTelemetry distributed tracing, LLM resource orchestration, and autonomous trajectory evaluations.**
 
-**Last updated: November 2026**
+Whether you are building autonomous coding agents, multi-agent enterprise swarms, or low-latency tool-routing proxies, this repository tracks state-of-the-art tools to:
+- 🔄 **Synthesize & Distill Skills**: Automatically extract verified agent skills and executable workflows from heterogeneous documentation, codebases, and API specs (e.g. `microsoft/resource2skill`).
+- 🔌 **Standardize Tool Protocols**: Connect agents to live databases, terminal environments, and SaaS apps via the **Model Context Protocol (MCP)** standard.
+- 🚦 **Orchestrate LLM Resources**: Balance budgets, manage multi-model fallbacks, cache semantic queries, and enforce rate limits across 100+ LLMs.
+- 🔭 **Trace & Observe Trajectories**: Capture recursive agent thoughts, tool invocation trees, token expenditure, and latency with native OpenTelemetry instrumentation.
+- 🧪 **Evaluate Capabilities**: Continuously benchmark tool-calling accuracy, hallucination rates, and task completion in CI/CD pipelines.
 
+---
 
+## 📑 Table of Contents
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **AI Agent Capabilities & Resource Orchestration**. These tools convert raw documentation, repositories, and APIs into reusable agent skills, route and govern tool/model resources, monitor multi-step agent trajectories via OpenTelemetry, and evaluate capability reliability in production.
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS & Hosted Platforms](#️-saas--hosted-platforms)
+- [⚡ Open-Source GitHub Projects (Ranked by Stars)](#-open-source-github-projects-ranked-by-stars)
+- [📈 Star History](#-star-history)
+- [💖 Support & Community](#-support--community)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⚠️ Disclaimer](#️-disclaimer)
 
+---
 
-
-**Examples** include AgentOps, Langfuse, Helicone, Braintrust, Arize Phoenix, HoneyHive, LangSmith, Traceloop, OpenLIT, Lunary, and microsoft/resource2skill (the category leaders). 
-
-
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosted LLM observability, automated skill extraction from knowledge resources, Model Context Protocol (MCP) orchestration, LLM routing gateways, and agent evaluation harnesses — ideal for AI engineers, platform architects, and researchers building transparent, self-governed agent infrastructure.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saashosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-
-
-## Sector Overview & Market Dynamics
+## 📊 Sector Overview & Market Dynamics
 
 The global AI observability and agent orchestration market is estimated at approximately **$2.5B–$4B**, expanding at an aggressive CAGR of over 22–25% toward an expected $15B+ by the early 2030s. The sector is currently **moderately fragmented** between agile open-source-first startups and agent-native tracing tools, but is experiencing rapid consolidation as enterprise APM incumbents (Datadog, Dynatrace, ServiceNow) and hyperscalers acquire or natively assimilate agent evaluation and MCP orchestration capabilities.
 
+---
 
-
-## SaaS/Hosted Platforms
+## ☁️ SaaS & Hosted Platforms
 
 | Platform | Company Valuation / Scale | Starting Pricing | Free Tier / Trial Limits | Description |
 | :--- | :--- | :--- | :--- | :--- |
@@ -59,164 +60,116 @@ The global AI observability and agent orchestration market is estimated at appro
 | **[Lunary](https://lunary.ai)** | Early-stage / Bootstrapped (<$5M) | $20 / user / month (Team tier; includes 50,000 events/month and 300 AI Playground queries) | Free forever (Free plan): Up to 1,000 events/month, 1 user seat, 30-day history (Full OSS self-hosted is completely free) | Production LLM observability, prompt management, and user analytics platform tailored for B2B AI applications and multi-step agent workflows. |
 | **[OpenLIT Cloud](https://openlit.io)** | Early-stage / Open-Core (<$5M) | Contact for Cloud quote / Enterprise contract | Free forever (OSS Core): Apache 2.0 self-hostable via Docker/Kubernetes with 0 trace fees and no seat limits | Managed OpenTelemetry-native observability and GPU/LLM resource monitoring platform tracking token consumption, vector DB latency, and agent traces. |
 
+---
 
+## ⚡ Open-Source GitHub Projects (Ranked by Stars)
 
+Every major open-source repository for self-hosted LLM observability, skill extraction, Model Context Protocol (MCP) servers, API gateways, guardrails, and agent evaluation, sorted strictly in descending order of GitHub stars:
 
+1. **[modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers)** [![GitHub stars](https://img.shields.io/github/stars/modelcontextprotocol/servers?style=social&color=white)](https://github.com/modelcontextprotocol/servers/stargazers)  
+   Reference implementations and standard servers for the **Model Context Protocol (MCP)**, connecting AI agents to real-world context, databases, developer tools, and file systems.
 
-## Open-Source GitHub Projects
+2. **[mem0ai/mem0](https://github.com/mem0ai/mem0)** [![GitHub stars](https://img.shields.io/github/stars/mem0ai/mem0?style=social&color=white)](https://github.com/mem0ai/mem0/stargazers)  
+   The intelligent memory layer for AI agents. Provides personalized, persistent context across sessions, enabling agents to remember user preferences, execution histories, and domain facts.
 
+3. **[BerriAI/litellm](https://github.com/BerriAI/litellm)** [![GitHub stars](https://img.shields.io/github/stars/BerriAI/litellm?style=social&color=white)](https://github.com/BerriAI/litellm/stargazers)  
+   Lightweight, high-performance AI Gateway with a Rust core and Python SDK. Call 100+ LLMs in OpenAI format with load balancing, spend tracking, fallback routing, and guardrails.
 
+4. **[langfuse/langfuse](https://github.com/langfuse/langfuse)** [![GitHub stars](https://img.shields.io/github/stars/langfuse/langfuse?style=social&color=white)](https://github.com/langfuse/langfuse/stargazers)  
+   Full-stack open-source LLM engineering and observability platform. OpenTelemetry-native agent tracing, prompt versioning, playground, evals, and fine-grained cost analytics.
 
-- **[microsoft/resource2skill](https://github.com)**  
+5. **[songquanpeng/one-api](https://github.com/songquanpeng/one-api)** [![GitHub stars](https://img.shields.io/github/stars/songquanpeng/one-api?style=social&color=white)](https://github.com/songquanpeng/one-api/stargazers)  
+   Unified multi-tenant API distribution and resource management gateway supporting OpenAI, Azure, Anthropic Claude, Gemini, DeepSeek, and dozens of upstream LLM providers.
 
-  Open-source framework from Microsoft that automatically distills heterogeneous knowledge resources (repositories, API docs, manuals, web pages) into structured, verifiable, and reusable AI agent skill packages.
+6. **[getzep/graphiti](https://github.com/getzep/graphiti)** [![GitHub stars](https://img.shields.io/github/stars/getzep/graphiti?style=social&color=white)](https://github.com/getzep/graphiti/stargazers)  
+   Framework for constructing real-time, temporally aware dynamic knowledge graphs from unstructured agent interactions and tool invocations.
 
+7. **[promptfoo/promptfoo](https://github.com/promptfoo/promptfoo)** [![GitHub stars](https://img.shields.io/github/stars/promptfoo/promptfoo?style=social&color=white)](https://github.com/promptfoo/promptfoo/stargazers)  
+   Battle-tested CLI and CI/CD testing suite for red-teaming, prompt evaluation, security probing, and evaluating multi-step agent tool calling. Used by OpenAI and Anthropic.
 
+8. **[comet-ml/opik](https://github.com/comet-ml/opik)** [![GitHub stars](https://img.shields.io/github/stars/comet-ml/opik?style=social&color=white)](https://github.com/comet-ml/opik/stargazers)  
+   Enterprise-grade open-source LLM evaluation, agent tracing, and dataset curation framework featuring automated scoring pipelines and production analytics dashboards.
 
-- **[Langfuse](https://github.com)**  
+9. **[confident-ai/deepeval](https://github.com/confident-ai/deepeval)** [![GitHub stars](https://img.shields.io/github/stars/confident-ai/deepeval?style=social&color=white)](https://github.com/confident-ai/deepeval/stargazers)  
+   Production-ready evaluation harness structured like Pytest for LLM applications. Measures tool correctness, hallucination, answer relevancy, and agent trajectory completion.
 
-  Leading open-source LLM engineering platform for full-stack agent tracing, prompt versioning, session replays, cost/token resource tracking, and automated evaluations.
+10. **[explodinggradients/ragas](https://github.com/explodinggradients/ragas)** [![GitHub stars](https://img.shields.io/github/stars/explodinggradients/ragas?style=social&color=white)](https://github.com/explodinggradients/ragas/stargazers)  
+    Comprehensive framework for evaluating Retrieval-Augmented Generation (RAG) and tool-augmented agent workflows with synthetic test dataset generators.
 
+11. **[Portkey-AI/gateway](https://github.com/Portkey-AI/gateway)** [![GitHub stars](https://img.shields.io/github/stars/Portkey-AI/gateway?style=social&color=white)](https://github.com/Portkey-AI/gateway/stargazers)  
+    Blazing-fast AI Gateway with built-in guardrails, load balancing, automated retry strategies, and request caching routing across 1,600+ models.
 
+12. **[Arize-ai/phoenix](https://github.com/Arize-ai/phoenix)** [![GitHub stars](https://img.shields.io/github/stars/Arize-ai/phoenix?style=social&color=white)](https://github.com/Arize-ai/phoenix/stargazers)  
+    AI observability, evaluation, and OpenTelemetry trace visualizer. Diagnoses agent tool loops, embedding drifts, RAG failure modes, and reasoning steps in notebooks or servers.
 
-- **[Arize Phoenix](https://github.com)**  
+13. **[tensorzero/tensorzero](https://github.com/tensorzero/tensorzero)** [![GitHub stars](https://img.shields.io/github/stars/tensorzero/tensorzero?style=social&color=white)](https://github.com/tensorzero/tensorzero/stargazers)  
+    Industrial-grade open-source LLMOps infrastructure written in Rust, unifying model gateway proxies, observability, evaluation, dynamic optimization, and experimentation.
 
-  Open-source OpenTelemetry-based AI observability and evaluation tool featuring interactive trace waterfall views, RAG/tool-call diagnostics, and experimentation notebooks.
+14. **[traceloop/openllmetry](https://github.com/traceloop/openllmetry)** [![GitHub stars](https://img.shields.io/github/stars/traceloop/openllmetry?style=social&color=white)](https://github.com/traceloop/openllmetry/stargazers)  
+    OpenTelemetry extensions for LLMs and agent frameworks (LangChain, LlamaIndex, AutoGen, CrewAI). Automatically captures non-intrusive traces and spans across runs.
 
+15. **[NVIDIA/NeMo-Guardrails](https://github.com/NVIDIA/NeMo-Guardrails)** [![GitHub stars](https://img.shields.io/github/stars/NVIDIA/NeMo-Guardrails?style=social&color=white)](https://github.com/NVIDIA/NeMo-Guardrails/stargazers)  
+    Open-source toolkit by NVIDIA for programming safety rails, domain constraints, output validation, and secure execution limits into LLM-powered applications.
 
+16. **[Helicone/helicone](https://github.com/Helicone/helicone)** [![GitHub stars](https://img.shields.io/github/stars/Helicone/helicone?style=social&color=white)](https://github.com/Helicone/helicone/stargazers)  
+    Lightweight, self-hostable open-source LLM observability proxy and caching gateway. Drop in a single line of code to track latency, token usage, and user sessions.
 
-- **[OpenLIT](https://github.com)**  
+17. **[lm-sys/RouteLLM](https://github.com/lm-sys/RouteLLM)** [![GitHub stars](https://img.shields.io/github/stars/lm-sys/RouteLLM?style=social&color=white)](https://github.com/lm-sys/RouteLLM/stargazers)  
+    LMSYS framework for training, evaluating, and serving cost-optimizing LLM routers. Dynamically routes queries between expensive frontier models and lighter SLMs with minimal degradation.
 
-  Open-source OpenTelemetry-native AI engineering platform providing zero-code instrumentation for 50+ LLM providers, agent frameworks, vector databases, and GPU metrics.
+18. **[Agenta-AI/agenta](https://github.com/Agenta-AI/agenta)** [![GitHub stars](https://img.shields.io/github/stars/Agenta-AI/agenta?style=social&color=white)](https://github.com/Agenta-AI/agenta/stargazers)  
+    Collaborative LLMOps workspace to rapidly prompt, test, evaluate, and deploy production AI agents and custom automation workflows.
 
+19. **[truera/trulens](https://github.com/truera/trulens)** [![GitHub stars](https://img.shields.io/github/stars/truera/trulens?style=social&color=white)](https://github.com/truera/trulens/stargazers)  
+    Software library providing rigorous feedback functions, evaluation triads, and guardrail metrics to systematically monitor and benchmark LLM and multi-agent systems.
 
+20. **[UKGovernmentBEIS/inspect_ai](https://github.com/UKGovernmentBEIS/inspect_ai)** [![GitHub stars](https://img.shields.io/github/stars/UKGovernmentBEIS/inspect_ai?style=social&color=white)](https://github.com/UKGovernmentBEIS/inspect_ai/stargazers)  
+    Evaluation framework developed by the UK AI Safety Institute (AISI) for measuring frontier agent capabilities, sandboxed execution, tool reliability, and safety risks.
 
-- **[OpenLLMetry (Traceloop)](https://github.com)**  
+21. **[protectai/llm-guard](https://github.com/protectai/llm-guard)** [![GitHub stars](https://img.shields.io/github/stars/protectai/llm-guard?style=social&color=white)](https://github.com/protectai/llm-guard/stargazers)  
+    Comprehensive security toolkit and scanner designed to prevent prompt injections, toxicity, data leakage, and unauthorized tool invocation in agentic systems.
 
-  Open-source set of extensions built on standard OpenTelemetry to capture and export non-intrusive traces and metrics from any LLM or agentic runtime.
+22. **[openlit/openlit](https://github.com/openlit/openlit)** [![GitHub stars](https://img.shields.io/github/stars/openlit/openlit?style=social&color=white)](https://github.com/openlit/openlit/stargazers)  
+    OpenTelemetry-native AI engineering platform providing zero-code auto-instrumentation for 50+ LLMs, vector databases, GPU usage, and multi-agent execution trees.
 
+23. **[microsoft/Resource2Skill](https://github.com/microsoft/Resource2Skill)** [![GitHub stars](https://img.shields.io/github/stars/microsoft/Resource2Skill?style=social&color=white)](https://github.com/microsoft/Resource2Skill/stargazers)  
+    Microsoft Research framework for automatically distilling human documentation, multimodal manuals, code repositories, and APIs into executable, verifiable AI agent skill packages.
 
+---
 
-- **[Helicone (Open-Source)](https://github.com)**  
+## 📈 Star History
 
-  Open-source AI gateway and observability proxy enabling self-hosted request logging, semantic caching, rate limiting, and fallback routing across model endpoints.
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-AI-Agent-Capabilities-Resource-Orchestration&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-AI-Agent-Capabilities-Resource-Orchestration&type=date&legend=top-left)
 
+---
 
+## 💖 Support & Community
 
-- **[Lunary (Open-Source)](https://github.com)**  
+Thank you for exploring **Awesome AI Agent Capabilities & Resource Orchestration**! If you find this curated directory valuable for your research, team, or production architecture, please consider supporting the project:
 
-  Self-hostable open-source toolkit for LLM observability, agent run visualization, prompt templates, and PII masking.
+- ⭐ **Star this repository** on GitHub to help more builders and engineers discover it.
+- 🍴 **Fork the repo** to curate your own internal agent capability stack.
+- 📢 **Share with your network** on X/Twitter, LinkedIn, Discord, and AI communities.
+- ☕ **Buy a coffee & sponsor ongoing maintenance** via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
 
+Your sponsorship helps keep this knowledge base actively updated, verified, and benchmarked!
 
+---
 
-- **[LiteLLM](https://github.com)**  
+## 🤝 How to Contribute
 
-  Open-source AI gateway and Python SDK providing a unified OpenAI-compatible proxy, load balancing, budget/rate-limit orchestration, and spend tracking across 100+ LLMs.
+Contributions are welcome and appreciated! To maintain the highest quality standards:
 
-
-
-- **[Portkey AI Gateway](https://github.com)**  
-
-  Blazing-fast open-source AI gateway engineered for production resource orchestration with automatic fallbacks, retries, semantic caching, and unified observability.
-
-
-
-- **[TensorZero](https://github.com)**  
-
-  Open-source industrial-grade LLM gateway, observability, optimization, and experimentation framework written in Rust for high-throughput agent systems.
-
-
-
-- **[Model Context Protocol (MCP) Servers & SDKs](https://github.com)**  
-
-  Open-source standard and reference server ecosystem enabling AI agents to dynamically discover, compose, and orchestrate external tools, databases, and capabilities.
-
-
-
-- **[Awesome Agent Skills (`ComposioHQ/awesome-claude-skills` / `sickn33/antigravity-awesome-skills`)](https://github.com)**  
-
-  Community-maintained open-source registries of modular `SKILL.md` capability packs that equip coding and task agents with specialized domain workflows.
-
-
-
-- **[Promptfoo](https://github.com)**  
-
-  Open-source CLI and library for testing, red-teaming, and benchmarking LLM prompts, RAG pipelines, and agent tool-calling capabilities in CI/CD.
-
-
-
-- **[DeepEval](https://github.com)**  
-
-  Open-source LLM and agent evaluation framework offering unit-test-style metrics for tool correctness, task completion, faithfulness, and contextual recall.
-
-
-
-- **[Inspect AI (UK AISI)](https://github.com)**  
-
-  Open-source framework for evaluating complex AI agent capabilities, sandboxed tool use, reasoning trajectories, and safety benchmarks.
-
-
-
-- **[Opik (Comet)](https://github.com)**  
-
-  Open-source end-to-end LLM evaluation and tracing platform built for logging high-volume agent traces, annotating datasets, and running automated LLM-as-a-judge checks.
-
-
-
-- **[Agenta](https://github.com)**  
-
-  Open-source LLMOps platform focused on collaborative prompt engineering, custom agent workflow playgrounds, and human/automated capability evaluation.
-
-
-
-- **[Ragas](https://github.com)**  
-
-  Open-source evaluation and synthetic test-data generation toolkit specifically tailored for retrieval-augmented and tool-using AI agent pipelines.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **[One-API / New-API](https://github.com)** for self-hosted multi-tenant LLM key management, quota allocation, and unified API resource distribution.
-
-- **[Bifrost (Maxim AI)](https://github.com)** and **[RouteLLM](https://github.com)** for ultra-low-latency model routing and cost-vs-capability orchestration between frontier and small models.
-
-- **[NeMo Guardrails (NVIDIA)](https://github.com)** and **[LLM Guard](https://github.com)** for programmable runtime policy enforcement, input/output sanitization, and capability boundaries.
-
-- **[Graphiti (Zep)](https://github.com)** and **[Mem0](https://github.com)** for temporal knowledge graphs and persistent capability/context memory across agent sessions.
-
-- **[Vellum / Athina / TruLens](https://github.com)** for open-source feedback functions and groundedness tracking in multi-step agent execution.
-
-
-
-**Frameworks for building custom systems**: Combine **microsoft/resource2skill** (skill synthesis) with **Model Context Protocol (MCP)** (tool orchestration), **LiteLLM / TensorZero** (model resource routing), **Langfuse / Arize Phoenix** (OpenTelemetry tracing), and **Promptfoo / Inspect AI** (capability evaluation) for sovereign, observable AI agent infrastructure.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Automated skill synthesis tools (such as `resource2skill`) and dynamic MCP tool servers can introduce prompt-injection or unintended execution risks if ingesting untrusted external repositories or docs.
+1. 🍴 **Fork the repository**.
+2. 📝 **Add or update an entry** in `README.md`:
+   - Follow the established formatting (include links, star badges for open-source repos, and factual descriptions).
+   - Ensure open-source projects are placed in correct star-ranked order.
+   - For SaaS products, provide verifiable company scale, exact starting pricing, and concrete free-tier/trial limits.
+3. 🚀 **Submit a Pull Request** with a descriptive summary of your addition or modification.
+
+---
+
+## ⚠️ Disclaimer
+
+- This is a **community-curated** list — not exhaustive and not an endorsement of any vendor or methodology.
+- Automated skill synthesis tools (such as `resource2skill`) and dynamic MCP tool servers can introduce prompt-injection or unintended code-execution risks if ingesting untrusted external repositories or documentation. Always run agent tool execution within sandboxed environments.
