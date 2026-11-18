@@ -30,77 +30,34 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saashosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
+
+
+
+## Sector Overview & Market Dynamics
+
+The global AI observability and agent orchestration market is estimated at approximately **$2.5B–$4B**, expanding at an aggressive CAGR of over 22–25% toward an expected $15B+ by the early 2030s. The sector is currently **moderately fragmented** between agile open-source-first startups and agent-native tracing tools, but is experiencing rapid consolidation as enterprise APM incumbents (Datadog, Dynatrace, ServiceNow) and hyperscalers acquire or natively assimilate agent evaluation and MCP orchestration capabilities.
 
 
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[LangSmith (LangChain)](https://langchain.com)**  
-
-  All-in-one developer platform for debugging, testing, evaluating, and monitoring LLM chains and complex multi-agent execution graphs at enterprise scale.
-
-
-
-- **[Langfuse Cloud](https://langfuse.com)**  
-
-  Managed cloud deployment of the open-source LLM engineering platform providing trace analytics, prompt management, datasets, and online agent evaluations.
-
-
-
-- **[Helicone](https://helicone.ai)**  
-
-  Proxy-based LLM observability and AI gateway platform offering request caching, rate limiting, cost tracking, and multi-provider resource routing.
-
-
-
-- **[Braintrust](https://braintrust.dev)**  
-
-  End-to-end enterprise AI evaluation, prompt playground, and observability suite designed to score agent capabilities and prevent regressions across releases.
-
-
-
-- **[Arize AX / Arize Phoenix Cloud](https://arize.com)**  
-
-  Enterprise AI observability and LLM evaluation platform delivering deep span-level tracing, drift detection, and root-cause analysis for agentic pipelines.
-
-
-
-- **[AgentOps](https://agentops.ai)**  
-
-  Dedicated agent monitoring and replay platform tracking tool calls, recursive thoughts, LLM costs, session replays, and failure modes across agent frameworks.
-
-
-
-- **[HoneyHive](https://honeyhive.ai)**  
-
-  AI observability and evaluation platform built for compounding agent reliability through curated production datasets, human feedback loops, and CI/CD evals.
-
-
-
-- **[Traceloop](https://traceloop.com)**  
-
-  Hosted OpenTelemetry-native LLM observability and reliability platform built on OpenLLMetry for real-time agent tracing and hallucination guardrails.
-
-
-
-- **[OpenLIT Cloud](https://openlit.io)**  
-
-  Managed OpenTelemetry-native observability and GPU/LLM resource monitoring platform tracking token consumption, vector DB latency, and agent traces.
-
-
-
-- **[Lunary](https://lunary.ai)**  
-
-  Production LLM observability, prompt management, and user analytics platform tailored for B2B AI applications and multi-step agent workflows.
+| Platform | Company Valuation / Scale | Starting Pricing | Free Tier / Trial Limits | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| **[LangSmith (LangChain)](https://langchain.com)** | ~$3.0B valuation ($460M raised) | $39 / seat / month (Plus tier; additional base traces billed at $0.005/trace) | Free forever (Developer plan): 1 seat, up to 5,000 base traces/month, 1 workspace, 14-day data retention | All-in-one developer platform for debugging, testing, evaluating, and monitoring LLM chains and complex multi-agent execution graphs at enterprise scale. |
+| **[Braintrust](https://braintrust.dev)** | ~$800M valuation ($121M raised) | $249 / month (Pro tier base fee + usage) | Free forever (Starter tier): Up to 5 users, capped at ~1,000 spans/week, model playground credits, unlimited playgrounds & datasets | End-to-end enterprise AI evaluation, prompt playground, and observability suite designed to score agent capabilities and prevent regressions across releases. |
+| **[Arize AX / Arize Phoenix Cloud](https://arize.com)** | ~$500M–$1B valuation ($130M+ raised) | $50 / month (Arize AX Pro tier) | Free forever (AX Cloud): Up to 25,000 spans/month, 1 GB ingestion limit, 15-day data retention (Phoenix OSS self-hosted is 100% free with unlimited spans) | Enterprise AI observability and LLM evaluation platform delivering deep span-level tracing, drift detection, and root-cause analysis for agentic pipelines. |
+| **[Traceloop](https://traceloop.com)** | ~$60M–$80M acquisition (Acquired by ServiceNow; $6.6M raised prior) | Custom enterprise quote / AWS Marketplace contracts | Free forever (Cloud Starter): Up to 50,000 spans/month, unlimited seats, full feature access (OpenLLMetry SDK is open-source Apache 2.0) | Hosted OpenTelemetry-native LLM observability and reliability platform built on OpenLLMetry for real-time agent tracing and hallucination guardrails. |
+| **[Helicone](https://helicone.ai)** | ~$25M valuation (Acquired by Mintlify; $5M raised prior) | $79 / month (Pro tier; includes 10k requests, extra usage billed incrementally) | Free forever (Hobby tier): 1 seat, 1 organization, up to 10,000 requests/month, 1 GB storage, 1-month retention | Proxy-based LLM observability and AI gateway platform offering request caching, rate limiting, cost tracking, and multi-provider resource routing. |
+| **[HoneyHive](https://honeyhive.ai)** | ~$15M–$25M est. valuation ($7.4M raised) | Custom enterprise quote (Usage-based based on logged telemetry) | Free forever (Developer tier): Up to 5 users, 10,000 events/month, 1,000 RPM, 30-day data retention | AI observability and evaluation platform built for compounding agent reliability through curated production datasets, human feedback loops, and CI/CD evals. |
+| **[Langfuse Cloud](https://langfuse.com)** | ~$15M–$20M est. valuation ($4.5M raised) | $29 / month (Core tier; includes 100,000 units/month, extra units at $8/100k) | Free forever (Hobby tier): 2 users, up to 50,000 units (observations/events)/month, 30-day data retention (OSS self-hostable 100% free) | Managed cloud deployment of the open-source LLM engineering platform providing trace analytics, prompt management, datasets, and online agent evaluations. |
+| **[AgentOps](https://agentops.ai)** | ~$10M–$15M est. valuation ($2.6M raised) | $40 / month (Pro tier; includes base event volume + pay-as-you-go scaling) | Free forever (Basic tier): Up to 5,000 events/month, basic replay and tracing features | Dedicated agent monitoring and replay platform tracking tool calls, recursive thoughts, LLM costs, session replays, and failure modes across agent frameworks. |
+| **[Lunary](https://lunary.ai)** | Early-stage / Bootstrapped (<$5M) | $20 / user / month (Team tier; includes 50,000 events/month and 300 AI Playground queries) | Free forever (Free plan): Up to 1,000 events/month, 1 user seat, 30-day history (Full OSS self-hosted is completely free) | Production LLM observability, prompt management, and user analytics platform tailored for B2B AI applications and multi-step agent workflows. |
+| **[OpenLIT Cloud](https://openlit.io)** | Early-stage / Open-Core (<$5M) | Contact for Cloud quote / Enterprise contract | Free forever (OSS Core): Apache 2.0 self-hostable via Docker/Kubernetes with 0 trace fees and no seat limits | Managed OpenTelemetry-native observability and GPU/LLM resource monitoring platform tracking token consumption, vector DB latency, and agent traces. |
 
 
 
