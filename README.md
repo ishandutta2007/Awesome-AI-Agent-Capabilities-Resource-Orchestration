@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-AI-Agent-Capabilities-Resource-Orchestration/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-AI-Agent-Capabilities-Resource-Orchestration?style=flat-square&logo=github&color=gold" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-AI-Agent-Capabilities-Resource-Orchestration/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-AI-Agent-Capabilities-Resource-Orchestration?style=flat-square&logo=github&color=gold" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-AI-Agent-Capabilities-Resource-Orchestration/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-AI-Agent-Capabilities-Resource-Orchestration?style=flat-square&logo=github&color=blue" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-AI-Agent-Capabilities-Resource-Orchestration/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License: MIT" /></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -64,75 +64,75 @@ The global AI observability and agent orchestration market is estimated at appro
 
 ## ⚡ Open-Source GitHub Projects (Ranked by Stars)
 
-Every major open-source repository for self-hosted LLM observability, skill extraction, Model Context Protocol (MCP) servers, API gateways, guardrails, and agent evaluation, sorted strictly in descending order of GitHub stars:
+Every major open-source repository for self-hosted LLM observability, skill extraction, Model Context Protocol (MCP) servers, API gateways, guardrails, and agent evaluation, sorted strictly in descending order of GitHub_Stars:
 
-1. **[modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers)** [![GitHub stars](https://img.shields.io/github/stars/modelcontextprotocol/servers?style=social&color=white)](https://github.com/modelcontextprotocol/servers/stargazers)  
+1. **[modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers)** [![GitHub_Stars](https://img.shields.io/github/stars/modelcontextprotocol/servers?style=social&color=white)](https://github.com/modelcontextprotocol/servers/stargazers)  
    Reference implementations and standard servers for the **Model Context Protocol (MCP)**, connecting AI agents to real-world context, databases, developer tools, and file systems.
 
-2. **[mem0ai/mem0](https://github.com/mem0ai/mem0)** [![GitHub stars](https://img.shields.io/github/stars/mem0ai/mem0?style=social&color=white)](https://github.com/mem0ai/mem0/stargazers)  
+2. **[mem0ai/mem0](https://github.com/mem0ai/mem0)** [![GitHub_Stars](https://img.shields.io/github/stars/mem0ai/mem0?style=social&color=white)](https://github.com/mem0ai/mem0/stargazers)  
    The intelligent memory layer for AI agents. Provides personalized, persistent context across sessions, enabling agents to remember user preferences, execution histories, and domain facts.
 
-3. **[BerriAI/litellm](https://github.com/BerriAI/litellm)** [![GitHub stars](https://img.shields.io/github/stars/BerriAI/litellm?style=social&color=white)](https://github.com/BerriAI/litellm/stargazers)  
+3. **[BerriAI/litellm](https://github.com/BerriAI/litellm)** [![GitHub_Stars](https://img.shields.io/github/stars/BerriAI/litellm?style=social&color=white)](https://github.com/BerriAI/litellm/stargazers)  
    Lightweight, high-performance AI Gateway with a Rust core and Python SDK. Call 100+ LLMs in OpenAI format with load balancing, spend tracking, fallback routing, and guardrails.
 
-4. **[langfuse/langfuse](https://github.com/langfuse/langfuse)** [![GitHub stars](https://img.shields.io/github/stars/langfuse/langfuse?style=social&color=white)](https://github.com/langfuse/langfuse/stargazers)  
+4. **[langfuse/langfuse](https://github.com/langfuse/langfuse)** [![GitHub_Stars](https://img.shields.io/github/stars/langfuse/langfuse?style=social&color=white)](https://github.com/langfuse/langfuse/stargazers)  
    Full-stack open-source LLM engineering and observability platform. OpenTelemetry-native agent tracing, prompt versioning, playground, evals, and fine-grained cost analytics.
 
-5. **[songquanpeng/one-api](https://github.com/songquanpeng/one-api)** [![GitHub stars](https://img.shields.io/github/stars/songquanpeng/one-api?style=social&color=white)](https://github.com/songquanpeng/one-api/stargazers)  
+5. **[songquanpeng/one-api](https://github.com/songquanpeng/one-api)** [![GitHub_Stars](https://img.shields.io/github/stars/songquanpeng/one-api?style=social&color=white)](https://github.com/songquanpeng/one-api/stargazers)  
    Unified multi-tenant API distribution and resource management gateway supporting OpenAI, Azure, Anthropic Claude, Gemini, DeepSeek, and dozens of upstream LLM providers.
 
-6. **[getzep/graphiti](https://github.com/getzep/graphiti)** [![GitHub stars](https://img.shields.io/github/stars/getzep/graphiti?style=social&color=white)](https://github.com/getzep/graphiti/stargazers)  
+6. **[getzep/graphiti](https://github.com/getzep/graphiti)** [![GitHub_Stars](https://img.shields.io/github/stars/getzep/graphiti?style=social&color=white)](https://github.com/getzep/graphiti/stargazers)  
    Framework for constructing real-time, temporally aware dynamic knowledge graphs from unstructured agent interactions and tool invocations.
 
-7. **[promptfoo/promptfoo](https://github.com/promptfoo/promptfoo)** [![GitHub stars](https://img.shields.io/github/stars/promptfoo/promptfoo?style=social&color=white)](https://github.com/promptfoo/promptfoo/stargazers)  
+7. **[promptfoo/promptfoo](https://github.com/promptfoo/promptfoo)** [![GitHub_Stars](https://img.shields.io/github/stars/promptfoo/promptfoo?style=social&color=white)](https://github.com/promptfoo/promptfoo/stargazers)  
    Battle-tested CLI and CI/CD testing suite for red-teaming, prompt evaluation, security probing, and evaluating multi-step agent tool calling. Used by OpenAI and Anthropic.
 
-8. **[comet-ml/opik](https://github.com/comet-ml/opik)** [![GitHub stars](https://img.shields.io/github/stars/comet-ml/opik?style=social&color=white)](https://github.com/comet-ml/opik/stargazers)  
+8. **[comet-ml/opik](https://github.com/comet-ml/opik)** [![GitHub_Stars](https://img.shields.io/github/stars/comet-ml/opik?style=social&color=white)](https://github.com/comet-ml/opik/stargazers)  
    Enterprise-grade open-source LLM evaluation, agent tracing, and dataset curation framework featuring automated scoring pipelines and production analytics dashboards.
 
-9. **[confident-ai/deepeval](https://github.com/confident-ai/deepeval)** [![GitHub stars](https://img.shields.io/github/stars/confident-ai/deepeval?style=social&color=white)](https://github.com/confident-ai/deepeval/stargazers)  
+9. **[confident-ai/deepeval](https://github.com/confident-ai/deepeval)** [![GitHub_Stars](https://img.shields.io/github/stars/confident-ai/deepeval?style=social&color=white)](https://github.com/confident-ai/deepeval/stargazers)  
    Production-ready evaluation harness structured like Pytest for LLM applications. Measures tool correctness, hallucination, answer relevancy, and agent trajectory completion.
 
-10. **[explodinggradients/ragas](https://github.com/explodinggradients/ragas)** [![GitHub stars](https://img.shields.io/github/stars/explodinggradients/ragas?style=social&color=white)](https://github.com/explodinggradients/ragas/stargazers)  
+10. **[explodinggradients/ragas](https://github.com/explodinggradients/ragas)** [![GitHub_Stars](https://img.shields.io/github/stars/explodinggradients/ragas?style=social&color=white)](https://github.com/explodinggradients/ragas/stargazers)  
     Comprehensive framework for evaluating Retrieval-Augmented Generation (RAG) and tool-augmented agent workflows with synthetic test dataset generators.
 
-11. **[Portkey-AI/gateway](https://github.com/Portkey-AI/gateway)** [![GitHub stars](https://img.shields.io/github/stars/Portkey-AI/gateway?style=social&color=white)](https://github.com/Portkey-AI/gateway/stargazers)  
+11. **[Portkey-AI/gateway](https://github.com/Portkey-AI/gateway)** [![GitHub_Stars](https://img.shields.io/github/stars/Portkey-AI/gateway?style=social&color=white)](https://github.com/Portkey-AI/gateway/stargazers)  
     Blazing-fast AI Gateway with built-in guardrails, load balancing, automated retry strategies, and request caching routing across 1,600+ models.
 
-12. **[Arize-ai/phoenix](https://github.com/Arize-ai/phoenix)** [![GitHub stars](https://img.shields.io/github/stars/Arize-ai/phoenix?style=social&color=white)](https://github.com/Arize-ai/phoenix/stargazers)  
+12. **[Arize-ai/phoenix](https://github.com/Arize-ai/phoenix)** [![GitHub_Stars](https://img.shields.io/github/stars/Arize-ai/phoenix?style=social&color=white)](https://github.com/Arize-ai/phoenix/stargazers)  
     AI observability, evaluation, and OpenTelemetry trace visualizer. Diagnoses agent tool loops, embedding drifts, RAG failure modes, and reasoning steps in notebooks or servers.
 
-13. **[tensorzero/tensorzero](https://github.com/tensorzero/tensorzero)** [![GitHub stars](https://img.shields.io/github/stars/tensorzero/tensorzero?style=social&color=white)](https://github.com/tensorzero/tensorzero/stargazers)  
+13. **[tensorzero/tensorzero](https://github.com/tensorzero/tensorzero)** [![GitHub_Stars](https://img.shields.io/github/stars/tensorzero/tensorzero?style=social&color=white)](https://github.com/tensorzero/tensorzero/stargazers)  
     Industrial-grade open-source LLMOps infrastructure written in Rust, unifying model gateway proxies, observability, evaluation, dynamic optimization, and experimentation.
 
-14. **[traceloop/openllmetry](https://github.com/traceloop/openllmetry)** [![GitHub stars](https://img.shields.io/github/stars/traceloop/openllmetry?style=social&color=white)](https://github.com/traceloop/openllmetry/stargazers)  
+14. **[traceloop/openllmetry](https://github.com/traceloop/openllmetry)** [![GitHub_Stars](https://img.shields.io/github/stars/traceloop/openllmetry?style=social&color=white)](https://github.com/traceloop/openllmetry/stargazers)  
     OpenTelemetry extensions for LLMs and agent frameworks (LangChain, LlamaIndex, AutoGen, CrewAI). Automatically captures non-intrusive traces and spans across runs.
 
-15. **[NVIDIA/NeMo-Guardrails](https://github.com/NVIDIA/NeMo-Guardrails)** [![GitHub stars](https://img.shields.io/github/stars/NVIDIA/NeMo-Guardrails?style=social&color=white)](https://github.com/NVIDIA/NeMo-Guardrails/stargazers)  
+15. **[NVIDIA/NeMo-Guardrails](https://github.com/NVIDIA/NeMo-Guardrails)** [![GitHub_Stars](https://img.shields.io/github/stars/NVIDIA/NeMo-Guardrails?style=social&color=white)](https://github.com/NVIDIA/NeMo-Guardrails/stargazers)  
     Open-source toolkit by NVIDIA for programming safety rails, domain constraints, output validation, and secure execution limits into LLM-powered applications.
 
-16. **[Helicone/helicone](https://github.com/Helicone/helicone)** [![GitHub stars](https://img.shields.io/github/stars/Helicone/helicone?style=social&color=white)](https://github.com/Helicone/helicone/stargazers)  
+16. **[Helicone/helicone](https://github.com/Helicone/helicone)** [![GitHub_Stars](https://img.shields.io/github/stars/Helicone/helicone?style=social&color=white)](https://github.com/Helicone/helicone/stargazers)  
     Lightweight, self-hostable open-source LLM observability proxy and caching gateway. Drop in a single line of code to track latency, token usage, and user sessions.
 
-17. **[lm-sys/RouteLLM](https://github.com/lm-sys/RouteLLM)** [![GitHub stars](https://img.shields.io/github/stars/lm-sys/RouteLLM?style=social&color=white)](https://github.com/lm-sys/RouteLLM/stargazers)  
+17. **[lm-sys/RouteLLM](https://github.com/lm-sys/RouteLLM)** [![GitHub_Stars](https://img.shields.io/github/stars/lm-sys/RouteLLM?style=social&color=white)](https://github.com/lm-sys/RouteLLM/stargazers)  
     LMSYS framework for training, evaluating, and serving cost-optimizing LLM routers. Dynamically routes queries between expensive frontier models and lighter SLMs with minimal degradation.
 
-18. **[Agenta-AI/agenta](https://github.com/Agenta-AI/agenta)** [![GitHub stars](https://img.shields.io/github/stars/Agenta-AI/agenta?style=social&color=white)](https://github.com/Agenta-AI/agenta/stargazers)  
+18. **[Agenta-AI/agenta](https://github.com/Agenta-AI/agenta)** [![GitHub_Stars](https://img.shields.io/github/stars/Agenta-AI/agenta?style=social&color=white)](https://github.com/Agenta-AI/agenta/stargazers)  
     Collaborative LLMOps workspace to rapidly prompt, test, evaluate, and deploy production AI agents and custom automation workflows.
 
-19. **[truera/trulens](https://github.com/truera/trulens)** [![GitHub stars](https://img.shields.io/github/stars/truera/trulens?style=social&color=white)](https://github.com/truera/trulens/stargazers)  
+19. **[truera/trulens](https://github.com/truera/trulens)** [![GitHub_Stars](https://img.shields.io/github/stars/truera/trulens?style=social&color=white)](https://github.com/truera/trulens/stargazers)  
     Software library providing rigorous feedback functions, evaluation triads, and guardrail metrics to systematically monitor and benchmark LLM and multi-agent systems.
 
-20. **[UKGovernmentBEIS/inspect_ai](https://github.com/UKGovernmentBEIS/inspect_ai)** [![GitHub stars](https://img.shields.io/github/stars/UKGovernmentBEIS/inspect_ai?style=social&color=white)](https://github.com/UKGovernmentBEIS/inspect_ai/stargazers)  
+20. **[UKGovernmentBEIS/inspect_ai](https://github.com/UKGovernmentBEIS/inspect_ai)** [![GitHub_Stars](https://img.shields.io/github/stars/UKGovernmentBEIS/inspect_ai?style=social&color=white)](https://github.com/UKGovernmentBEIS/inspect_ai/stargazers)  
     Evaluation framework developed by the UK AI Safety Institute (AISI) for measuring frontier agent capabilities, sandboxed execution, tool reliability, and safety risks.
 
-21. **[protectai/llm-guard](https://github.com/protectai/llm-guard)** [![GitHub stars](https://img.shields.io/github/stars/protectai/llm-guard?style=social&color=white)](https://github.com/protectai/llm-guard/stargazers)  
+21. **[protectai/llm-guard](https://github.com/protectai/llm-guard)** [![GitHub_Stars](https://img.shields.io/github/stars/protectai/llm-guard?style=social&color=white)](https://github.com/protectai/llm-guard/stargazers)  
     Comprehensive security toolkit and scanner designed to prevent prompt injections, toxicity, data leakage, and unauthorized tool invocation in agentic systems.
 
-22. **[openlit/openlit](https://github.com/openlit/openlit)** [![GitHub stars](https://img.shields.io/github/stars/openlit/openlit?style=social&color=white)](https://github.com/openlit/openlit/stargazers)  
+22. **[openlit/openlit](https://github.com/openlit/openlit)** [![GitHub_Stars](https://img.shields.io/github/stars/openlit/openlit?style=social&color=white)](https://github.com/openlit/openlit/stargazers)  
     OpenTelemetry-native AI engineering platform providing zero-code auto-instrumentation for 50+ LLMs, vector databases, GPU usage, and multi-agent execution trees.
 
-23. **[microsoft/Resource2Skill](https://github.com/microsoft/Resource2Skill)** [![GitHub stars](https://img.shields.io/github/stars/microsoft/Resource2Skill?style=social&color=white)](https://github.com/microsoft/Resource2Skill/stargazers)  
+23. **[microsoft/Resource2Skill](https://github.com/microsoft/Resource2Skill)** [![GitHub_Stars](https://img.shields.io/github/stars/microsoft/Resource2Skill?style=social&color=white)](https://github.com/microsoft/Resource2Skill/stargazers)  
     Microsoft Research framework for automatically distilling human documentation, multimodal manuals, code repositories, and APIs into executable, verifiable AI agent skill packages.
 
 ---
@@ -162,7 +162,7 @@ Contributions are welcome and appreciated! To maintain the highest quality stand
 
 1. 🍴 **Fork the repository**.
 2. 📝 **Add or update an entry** in `README.md`:
-   - Follow the established formatting (include links, star badges for open-source repos, and factual descriptions).
+   - Follow the established formatting (include links, Stars_Badges for open-source repos, and factual descriptions).
    - Ensure open-source projects are placed in correct star-ranked order.
    - For SaaS products, provide verifiable company scale, exact starting pricing, and concrete free-tier/trial limits.
 3. 🚀 **Submit a Pull Request** with a descriptive summary of your addition or modification.
